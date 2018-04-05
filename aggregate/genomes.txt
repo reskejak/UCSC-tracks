@@ -1,2 +1,2 @@
 genome mm10
-trackDb https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/trackDb.txt
+trackDb https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/aggregate/trackDb.txt
