@@ -1,5 +1,5 @@
-hub ATACseq
-shortLabel ATAC-seq data
+hub ATACseq_aggregate
+shortLabel ATACseq_aggregate
 longLabel ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
-genomesFile https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/genomes.txt
+genomesFile https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/aggregate/genomes.txt
 email reskejak@msu.edu
