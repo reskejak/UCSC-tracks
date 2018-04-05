@@ -100,3 +100,137 @@ alwaysZero on
 maxHeightPixels 50:50:50
 windowingFunction mean
 smoothingWindow 3
+
+#################################
+
+track ATACseq_EEflfl
+bigDataUrl https://de.cyverse.org/dl/d/3471CA30-2955-4E68-9B39-4ACC050F3D54/EEflG1_broad_norm_logLR.bw
+type bigWig
+shortLabel ATACseq_EEflfl1
+longLabel ATACseq EEflfl1 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+visibility full
+color 255,0,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+##################################
+
+track ATACseq_EEflG
+container multiWig
+type bigWig
+shortLabel ATACseq_EEflG
+longLabel ATACseq EEflG biological replicates aggregate track normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+aggregate transparentOverlay
+visibility full
+priority 1
+autoScale on
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+
+track EEflG1
+bigDataUrl https://de.cyverse.org/dl/d/BD56FF5D-1CFD-4BDF-853D-16D59E47307D/EEflG2_broad_norm_logLR.bw
+type bigWig
+shortLabel EEflG1
+longLabel EEflG1 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+parent ATACseq_EEflG
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track EEflG2
+bigDataUrl https://de.cyverse.org/dl/d/2EBD55F7-D77E-4A5B-94A8-0B4047B324BE/EEflfl1_broad_norm_logLR.bw
+type bigWig
+shortLabel EEflG2
+longLabel EEflG2 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+parent ATACseq_EEflG
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+################################
+
+track ATACseq_EEhet
+container multiWig
+type bigWig
+shortLabel ATACseq_EEhet
+longLabel ATACseq EEhet biological replicates aggregate track normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+aggregate transparentOverlay
+visibility full
+priority 1
+autoScale on
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+
+track EEhet1
+bigDataUrl https://de.cyverse.org/dl/d/9DF80964-82C0-4806-989C-C6C29DF0F33C/EEhet1_broad_norm_logLR.bw
+type bigWig
+shortLabel EEhet1
+longLabel EEhet1 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+parent ATACseq_EEhet
+visibility full
+color 0,255,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track EEhet2
+bigDataUrl https://de.cyverse.org/dl/d/12CE0296-431D-4D26-BBE4-8CFC3BD5B8FA/EEhet2_broad_norm_logLR.bw
+type bigWig
+shortLabel EEhet2
+longLabel EEhet2 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+parent ATACseq_EEhet
+visibility full
+color 0,255,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+################################
+
+track ATACseq_EEwt
+container multiWig
+type bigWig
+shortLabel ATACseq_EEwt
+longLabel ATACseq EEwt biological replicates aggregate track normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+aggregate transparentOverlay
+visibility full
+priority 1
+autoScale on
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+
+track EEwt1
+bigDataUrl https://de.cyverse.org/dl/d/703B794A-4033-4C09-BB1E-53804147A3DF/EEwt1_broad_norm_logLR.bw
+type bigWig
+shortLabel EEwt1
+longLabel EEwt1 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+parent ATACseq_EEwt
+visibility full
+color 0,0,255
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track EEwt2
+bigDataUrl https://de.cyverse.org/dl/d/B79E36DD-703D-486D-A1F5-E5E6CE0EAB63/EEwt2_broad_norm_logLR.bw
+type bigWig
+shortLabel EEwt2
+longLabel EEwt2 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+parent ATACseq_EEwt
+visibility full
+color 0,0,255
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
