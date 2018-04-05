@@ -107,7 +107,7 @@ track ATACseq_EEflfl
 bigDataUrl https://de.cyverse.org/dl/d/2EBD55F7-D77E-4A5B-94A8-0B4047B324BE/EEflfl1_broad_norm_logLR.bw
 type bigWig
 shortLabel ATACseq_EEflfl1
-longLabel ATACseq EEflfl1 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+longLabel ATACseq EEflfl data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
 visibility full
 color 255,0,0
 alwaysZero on
@@ -121,7 +121,7 @@ track ATACseq_EEflG
 container multiWig
 type bigWig
 shortLabel ATACseq_EEflG
-longLabel ATACseq EEflG biological replicates aggregate track normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+longLabel ATACseq EEflG biological replicates aggregate data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
 aggregate transparentOverlay
 visibility full
 priority 1
@@ -161,7 +161,7 @@ track ATACseq_EEhet
 container multiWig
 type bigWig
 shortLabel ATACseq_EEhet
-longLabel ATACseq EEhet biological replicates aggregate track normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+longLabel ATACseq EEhet biological replicates aggregate data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
 aggregate transparentOverlay
 visibility full
 priority 1
@@ -201,7 +201,7 @@ track ATACseq_EEwt
 container multiWig
 type bigWig
 shortLabel ATACseq_EEwt
-longLabel ATACseq EEwt biological replicates aggregate track normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+longLabel ATACseq EEwt biological replicates aggregate data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
 aggregate transparentOverlay
 visibility full
 priority 1
