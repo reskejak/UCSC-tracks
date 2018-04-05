@@ -41,7 +41,7 @@ bigDataUrl https://de.cyverse.org/dl/d/BD56FF5D-1CFD-4BDF-853D-16D59E47307D/EEfl
 type bigWig
 shortLabel EEflG2
 longLabel EEflG2 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
-parent ATACseq
+parent ATACseq_full
 visibility full
 color 255,200,0
 alwaysZero on
