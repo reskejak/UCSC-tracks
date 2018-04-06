@@ -1,0 +1,2 @@
+genome mm10
+trackDb https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/RNA/aggregate/trackDb.txt
