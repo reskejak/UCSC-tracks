@@ -14,7 +14,7 @@ track EEflfl1
 bigDataUrl https://de.cyverse.org/dl/d/17A72DA0-D423-45BC-AE32-F86CD52BFCAA/EEflfl1_broad_norm_FE.bw
 type bigWig
 shortLabel EEflfl1
-longLabel EEflfl1 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+longLabel EEflfl1 ATAC-seq data normalized by fragments per million reads, displayed as fold-enrichment signal to noise
 parent ATACseq_full
 visibility full
 color 255,0,0
@@ -27,7 +27,7 @@ track EEflG1
 bigDataUrl https://de.cyverse.org/dl/d/518C2C07-F421-4666-8BC5-2A13A2BD08E8/EEflG1_broad_norm_FE.bw
 type bigWig
 shortLabel EEflG1
-longLabel EEflG1 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+longLabel EEflG1 ATAC-seq data normalized by fragments per million reads, displayed as fold-enrichment signal to noise
 parent ATACseq_full
 visibility full
 color 255,200,0
@@ -40,7 +40,7 @@ track EEflG2
 bigDataUrl https://de.cyverse.org/dl/d/004D50A1-B238-4470-A119-07053AE8A396/EEflG2_broad_norm_FE.bw
 type bigWig
 shortLabel EEflG2
-longLabel EEflG2 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+longLabel EEflG2 ATAC-seq data normalized by fragments per million reads, displayed as fold-enrichment signal to noise
 parent ATACseq_full
 visibility full
 color 255,200,0
@@ -53,7 +53,7 @@ track EEhet1
 bigDataUrl https://de.cyverse.org/dl/d/FE99518D-049E-403C-98C9-E2173858457D/EEhet1_broad_norm_FE.bw
 type bigWig
 shortLabel EEhet1
-longLabel EEhet1 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+longLabel EEhet1 ATAC-seq data normalized by fragments per million reads, displayed as fold-enrichment signal to noise
 parent ATACseq_full
 visibility full
 color 0,255,0
@@ -66,7 +66,7 @@ track EEhet2
 bigDataUrl https://de.cyverse.org/dl/d/38896B81-9BDF-482F-BAC8-9A2807F0633B/EEhet2_broad_norm_FE.bw
 type bigWig
 shortLabel EEhet2
-longLabel EEhet2 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+longLabel EEhet2 ATAC-seq data normalized by fragments per million reads, displayed as fold-enrichment signal to noise
 parent ATACseq_full
 visibility full
 color 0,255,0
@@ -79,7 +79,7 @@ track EEwt1
 bigDataUrl https://de.cyverse.org/dl/d/2E5C0568-B514-4D65-8A61-B1AA10D7D8FA/EEwt1_broad_norm_FE.bw
 type bigWig
 shortLabel EEwt1
-longLabel EEwt1 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+longLabel EEwt1 ATAC-seq data normalized by fragments per million reads, displayed as fold-enrichment signal to noise
 parent ATACseq_full
 visibility full
 color 0,0,255
@@ -92,7 +92,7 @@ track EEwt2
 bigDataUrl https://de.cyverse.org/dl/d/D863A6A8-9CE7-45FD-A6A1-7B898E5469C1/EEwt2_broad_norm_FE.bw
 type bigWig
 shortLabel EEwt2
-longLabel EEwt2 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+longLabel EEwt2 ATAC-seq data normalized by fragments per million reads, displayed as log fold-enrichment signal to noise
 parent ATACseq_full
 visibility full
 color 0,0,255
