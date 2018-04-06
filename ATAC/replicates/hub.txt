@@ -1,5 +1,5 @@
 hub ATACseq_replicates
 shortLabel ATACseq_replicates
-longLabel ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+longLabel ATAC-seq data normalized by fragments per million reads, displayed as fold-enrichment signal to noise
 genomesFile https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/replicates/genomes.txt
 email reskejak@msu.edu
