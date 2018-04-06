@@ -276,7 +276,6 @@ smoothingWindow 3
 
 track Uwt22018
 bigDataUrl https://de.cyverse.org/dl/d/2A0C9C13-A1A0-4CE4-B391-92845782BC46/Uwt22018_Aligned.mm10.bw
-
 type bigWig
 shortLabel Uwt22018
 longLabel Uwt22018 RNA-seq data
