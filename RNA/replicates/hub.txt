@@ -1,5 +1,5 @@
 hub RNAseq_replicates
 shortLabel RNAseq_replicates
-longLabel RNA-seq data, SE 75
+longLabel RNA-seq data, SE 75 (RPKM normalized)
 genomesFile https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/RNA/replicates/genomes.txt
 email reskejak@msu.edu
