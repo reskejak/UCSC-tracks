@@ -68,7 +68,7 @@ track RNAseq_Uhomo
 container multiWig
 type bigWig
 shortLabel RNAseq_Uhomo
-longLabel RNAseq Uhomo biological replicates aggregate data, RPKM normalized
+longLabel RNAseq Uhomo biological replicates aggregate data, RPM normalized
 aggregate transparentOverlay
 visibility full
 priority 1
@@ -134,7 +134,7 @@ track RNAseq_flGRNA
 container multiWig
 type bigWig
 shortLabel RNAseq_flGRNA
-longLabel RNAseq flGRNA biological replicates aggregate data, RPKM normalized
+longLabel RNAseq flGRNA biological replicates aggregate data, RPM normalized
 aggregate transparentOverlay
 visibility full
 priority 1
@@ -200,7 +200,7 @@ track RNAseq_Uwt
 container multiWig
 type bigWig
 shortLabel RNAseq_Uwt
-longLabel RNAseq Uwt biological replicates aggregate data, RPKM normalized
+longLabel RNAseq Uwt biological replicates aggregate data, RPM normalized
 aggregate transparentOverlay
 visibility full
 priority 1
@@ -253,7 +253,7 @@ track RNAseq_Uwt2018
 container multiWig
 type bigWig
 shortLabel RNAseq_Uwt2018
-longLabel RNAseq Uwt2018 biological replicates aggregate data, RPKM normalized
+longLabel RNAseq Uwt2018 biological replicates aggregate data, RPM normalized
 aggregate transparentOverlay
 visibility full
 priority 1
