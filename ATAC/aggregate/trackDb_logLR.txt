@@ -1,7 +1,7 @@
 track ATACseq_full
 container multiWig
 type bigWig
-shortLabel ATACseq, logLR
+shortLabel ATACseq_logLR
 longLabel ATACseq aggregate track, normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
 aggregate transparentOverlay
 visibility full
