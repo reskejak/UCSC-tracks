@@ -1,0 +1,301 @@
+track RNAseq_Uhet
+container multiWig
+type bigWig
+shortLabel RNAseq_Uhet
+longLabel RNAseq Uhet biological replicates aggregate data
+aggregate transparentOverlay
+visibility full
+priority 1
+autoScale on
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+
+track Uhet1
+bigDataUrl https://de.cyverse.org/dl/d/231D0051-9F9F-4DB3-A43B-220E46CA8557/Uhet1_Aligned.mm10.bw
+type bigWig
+shortLabel Uhet1
+longLabel Uhet1 RNA-seq data
+parent RNAseq_Uhet
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uhet2
+bigDataUrl https://de.cyverse.org/dl/d/EC662E2E-48F6-4EB7-90BE-9A6065B5B09E/Uhet2_Aligned.mm10.bw
+type bigWig
+shortLabel Uhet2
+longLabel Uhet2 RNA-seq data
+parent RNAseq_Uhet
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uhet3
+bigDataUrl https://de.cyverse.org/dl/d/44055F3F-2C0B-41A5-98A8-CD61276255AB/Uhet3_Aligned.mm10.bw
+type bigWig
+shortLabel Uhet3
+longLabel Uhet3 RNA-seq data
+parent RNAseq_Uhet
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uhet4
+bigDataUrl https://de.cyverse.org/dl/d/A4621E58-3FA2-4562-83BF-ECD63374FD94/Uhet4_Aligned.mm10.bw
+type bigWig
+shortLabel Uhet4
+longLabel Uhet4 RNA-seq data
+parent RNAseq_Uhet
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+########################################
+
+track RNAseq_Uhomo
+container multiWig
+type bigWig
+shortLabel RNAseq_Uhomo
+longLabel RNAseq Uhomo biological replicates aggregate data
+aggregate transparentOverlay
+visibility full
+priority 1
+autoScale on
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+
+track Uhomo1
+bigDataUrl https://de.cyverse.org/dl/d/7DA35BBB-0F62-4F39-836A-723179EA4999/Uhomo1_Aligned.mm10.bw
+type bigWig
+shortLabel Uhomo1
+longLabel Uhomo1 RNA-seq data
+parent RNAseq_Uhomo
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uhomo2
+bigDataUrl https://de.cyverse.org/dl/d/462214C4-DA4F-4E4B-BF70-9728B6E98496/Uhomo2_Aligned.mm10.bw
+type bigWig
+shortLabel Uhomo2
+longLabel Uhomo2 RNA-seq data
+parent RNAseq_Uhomo
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uhomo3
+bigDataUrl https://de.cyverse.org/dl/d/2397F0E2-76F4-4B58-89CB-5B547F8DC299/Uhomo3_Aligned.mm10.bw
+type bigWig
+shortLabel Uhomo3
+longLabel Uhomo3 RNA-seq data
+parent RNAseq_Uhomo
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uhomo4
+bigDataUrl https://de.cyverse.org/dl/d/F4FB04F4-7636-455C-8183-D80AEAACA84B/Uhomo4_Aligned.mm10.bw
+type bigWig
+shortLabel Uhomo4
+longLabel Uhomo4 RNA-seq data
+parent RNAseq_Uhomo
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+################################
+
+track RNAseq_flGRNA
+container multiWig
+type bigWig
+shortLabel RNAseq_flGRNA
+longLabel RNAseq flGRNA biological replicates aggregate data
+aggregate transparentOverlay
+visibility full
+priority 1
+autoScale on
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+
+track flG1RNA
+bigDataUrl https://de.cyverse.org/dl/d/E26850E7-C9EE-4BC1-AB85-41F5A122D861/flG1RNA_Aligned.mm10.bw
+type bigWig
+shortLabel flG1RNA
+longLabel flG1RNA RNA-seq data
+parent RNAseq_flGRNA
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track flG2RNA
+bigDataUrl https://de.cyverse.org/dl/d/CFFA7ECE-A265-4F47-94FC-3C37FFD9AA31/flG2RNA_Aligned.mm10.bw
+type bigWig
+shortLabel flG2RNA
+longLabel flG2RNA RNA-seq data
+parent RNAseq_flGRNA
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track flG3RNA
+bigDataUrl https://de.cyverse.org/dl/d/0708C90A-A19F-43DF-9AC0-2D2580F6564A/flG3RNA_Aligned.mm10.bw
+type bigWig
+shortLabel flG3RNA
+longLabel flG3RNA RNA-seq data
+parent RNAseq_flGRNA
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track flG4RNA
+bigDataUrl https://de.cyverse.org/dl/d/2D05638C-9B51-42CB-8813-D81019F038E9/flG4RNA_Aligned.mm10.bw
+type bigWig
+shortLabel flG4RNA
+longLabel flG4RNA RNA-seq data
+parent RNAseq_flGRNA
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+################################
+
+track RNAseq_Uwt
+container multiWig
+type bigWig
+shortLabel RNAseq_Uwt
+longLabel RNAseq Uwt biological replicates aggregate data
+aggregate transparentOverlay
+visibility full
+priority 1
+autoScale on
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+
+track Uwt1
+bigDataUrl https://de.cyverse.org/dl/d/E821BC46-272F-49D6-98B9-2B5B4814F5CD/Uwt1_Aligned.mm10.bw
+type bigWig
+shortLabel Uwt1
+longLabel Uwt1 RNA-seq data
+parent RNAseq_Uwt
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uwt2
+bigDataUrl https://de.cyverse.org/dl/d/69C83A2C-E5AE-4042-992B-2B0F2E8B9FB6/Uwt2_Aligned.mm10.bw
+type bigWig
+shortLabel Uwt2
+longLabel Uwt2 RNA-seq data
+parent RNAseq_Uwt
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uwt3
+bigDataUrl https://de.cyverse.org/dl/d/C538F0DF-4D90-43CB-A15A-6D87322F3EA2/Uwt3_Aligned.mm10.bw
+type bigWig
+shortLabel Uwt3
+longLabel Uwt3 RNA-seq data
+parent RNAseq_Uwt
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+################################
+
+track RNAseq_Uwt2018
+container multiWig
+type bigWig
+shortLabel RNAseq_Uwt2018
+longLabel RNAseq Uwt2018 biological replicates aggregate data
+aggregate transparentOverlay
+visibility full
+priority 1
+autoScale on
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+
+track Uwt12018
+bigDataUrl https://de.cyverse.org/dl/d/E10ED972-08B6-4D1B-AAFB-DDC934E32926/Uwt12018_Aligned.mm10.bw
+type bigWig
+shortLabel Uwt12018
+longLabel Uwt12018 RNA-seq data
+parent RNAseq_Uwt2018
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uwt22018
+bigDataUrl https://de.cyverse.org/dl/d/2A0C9C13-A1A0-4CE4-B391-92845782BC46/Uwt22018_Aligned.mm10.bw
+type bigWig
+shortLabel Uwt22018
+longLabel Uwt22018 RNA-seq data
+parent RNAseq_Uwt2018
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uwt32018
+bigDataUrl https://de.cyverse.org/dl/d/710A0A98-1597-4013-AA26-2015CA134398/Uwt32018_Aligned.mm10.bw
+type bigWig
+shortLabel Uwt32018
+longLabel Uwt32018 RNA-seq data
+parent RNAseq_Uwt2018
+visibility full
+color 255,200,0
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
