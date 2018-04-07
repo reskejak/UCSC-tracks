@@ -17,7 +17,7 @@ shortLabel Uhet1
 longLabel Uhet1 RNA-seq data
 parent RNAseq_Uhet
 visibility full
-color 70,255,70
+color 120,255,120
 alwaysZero on
 maxHeightPixels 50:50:50
 windowingFunction mean
@@ -30,7 +30,7 @@ shortLabel Uhet2
 longLabel Uhet2 RNA-seq data
 parent RNAseq_Uhet
 visibility full
-color 70,255,70
+color 120,255,120
 alwaysZero on
 maxHeightPixels 50:50:50
 windowingFunction mean
@@ -43,7 +43,7 @@ shortLabel Uhet3
 longLabel Uhet3 RNA-seq data
 parent RNAseq_Uhet
 visibility full
-color 70,255,70
+color 120,255,120
 alwaysZero on
 maxHeightPixels 50:50:50
 windowingFunction mean
@@ -56,7 +56,7 @@ shortLabel Uhet4
 longLabel Uhet4 RNA-seq data
 parent RNAseq_Uhet
 visibility full
-color 70,255,70
+color 120,255,120
 alwaysZero on
 maxHeightPixels 50:50:50
 windowingFunction mean
