@@ -72,7 +72,7 @@ shortLabel EEhet1
 longLabel EEhet1 ATAC-seq data normalized by fragments per million reads, displayed as fold-enrichment signal to noise
 parent ATACseq_EEhet
 visibility full
-color 75,255,75
+color 120,255,120
 alwaysZero on
 maxHeightPixels 50:50:50
 windowingFunction mean
@@ -85,7 +85,7 @@ shortLabel EEhet2
 longLabel EEhet2 ATAC-seq data normalized by fragments per million reads, displayed as fold-enrichment signal to noise
 parent ATACseq_EEhet
 visibility full
-color 75,255,75
+color 120,255,120
 alwaysZero on
 maxHeightPixels 50:50:50
 windowingFunction mean
