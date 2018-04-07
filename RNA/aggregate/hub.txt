@@ -1,5 +1,5 @@
 hub RNAseq_aggregate
 shortLabel RNAseq_aggregate
-longLabel RNA-seq data aggregate of biological replicates
+longLabel RNA-seq data aggregate of biological replicates (RPKM normalized)
 genomesFile https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/RNA/aggregate/genomes.txt
 email reskejak@msu.edu
