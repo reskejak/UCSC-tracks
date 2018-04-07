@@ -1,8 +1,8 @@
 track ATACseq_full
 container multiWig
 type bigWig
-shortLabel ATACseq
-longLabel ATACseq aggregate track
+shortLabel ATACseq_FE
+longLabel ATACseq aggregate track, normalized by fragments per million reads, displayed as fold-enrichment signal to noise
 aggregate transparentOverlay
 visibility full
 priority 1
