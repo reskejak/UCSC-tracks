@@ -69,7 +69,7 @@ shortLabel Uwt1
 longLabel Uwt1 RNA-seq data, RPM normalized
 parent RNAseq_Uhet_vs_WT
 visibility full
-color 180,180,180
+color 120,120,120
 alwaysZero on
 maxHeightPixels 50:50:50
 windowingFunction mean
@@ -82,7 +82,7 @@ shortLabel Uwt2
 longLabel Uwt2 RNA-seq data, RPM normalized
 parent RNAseq_Uhet_vs_WT
 visibility full
-color 180,180,180
+color 120,120,120
 alwaysZero on
 maxHeightPixels 50:50:50
 windowingFunction mean
@@ -95,7 +95,7 @@ shortLabel Uwt3
 longLabel Uwt3 RNA-seq data, RPM normalized
 parent RNAseq_Uhet_vs_WT
 visibility full
-color 180,180,180
+color 120,120,120
 alwaysZero on
 maxHeightPixels 50:50:50
 windowingFunction mean
