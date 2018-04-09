@@ -1,0 +1,5 @@
+hub RNAseq_homo_vs_WT
+shortLabel RNAseq_homo_vs_WT
+longLabel HomoKO vs. WT RNA-seq data, RPM normalized
+genomesFile https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/RNA/reps-vs-WT/genomes_homo.txt
+email reskejak@msu.edu
