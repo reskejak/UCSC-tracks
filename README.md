@@ -11,25 +11,25 @@ Note: each URL must be entered separately, since many of the hubs call the same 
 
 ### ATAC-seq data, normalized by fragments per million reads, displayed as log-likelihood ratio signal to noise
 
-separated by each genotype group compared to WT
+separated by each genotype group compared to WT:
 
 https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/reps-vs-WT/hub_flG.txt
 https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/reps-vs-WT/hub_homo.txt
 https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/reps-vs-WT/hub_het.txt
 
-aggregate multiWig track of all samples
+aggregate multiWig track of all samples:
 
 https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/aggregate/hub_logLR.txt
 
 ### RNA-seq data, normalized by reads per million mapped reads (RPM)
 
-separated by each genotype group compared to respective WT samples
+separated by each genotype group compared to respective WT samples:
 
 https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/RNA/reps-vs-WT/hub_flG.txt
 https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/RNA/reps-vs-WT/hub_homo.txt
 https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/RNA/reps-vs-WT/hub_het.txt
 
-aggregate multiWig track of all samples
+aggregate multiWig track of all samples:
 
 https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/RNA/aggregate/hub.txt
 
