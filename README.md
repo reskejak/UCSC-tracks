@@ -9,7 +9,7 @@ Note: each URL must be entered separately, since many of the hubs call the same 
 
 ## CURRENT "MOST USEFUL" HUBS
 
-### ATAC-seq data, normalized by fragments per million reads, displayed as log-likelihood ratio signal to noise
+#### ATAC-seq data, normalized by fragments per million reads, displayed as log-likelihood ratio signal to noise
 
 separated by each genotype group compared to WT:
 
@@ -21,7 +21,7 @@ aggregate multiWig track of all samples:
 
 https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/aggregate/hub_logLR.txt
 
-### RNA-seq data, normalized by reads per million mapped reads (RPM)
+#### RNA-seq data, normalized by reads per million mapped reads (RPM)
 
 separated by each genotype group compared to respective WT samples:
 
@@ -37,7 +37,7 @@ https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/RNA/aggregate/hub.
 
 ## OTHER MISCELLANEOUS HUBS
 
-### ATAC-seq data, normalized by fragments per million reads, displayed as fold-enrichment signal to noise
+#### ATAC-seq data, normalized by fragments per million reads, displayed as fold-enrichment signal to noise
 
 note: tends to be a bit noisy, for cleaner results see log-LR normalized tracks
 
@@ -48,13 +48,13 @@ note: tends to be a bit noisy, for cleaner results see log-LR normalized tracks
 https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/aggregate/hub.txt
 https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/replicates/hub.txt
 
-### ATAC-seq data, normalized by fragments per million reads, displayed as log-likelihood ratio signal to noise
+#### ATAC-seq data, normalized by fragments per million reads, displayed as log-likelihood ratio signal to noise
 
 fully separated by each genotype group with biological replicates overlayed
 
 https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/replicates/hub_logLR.txt
 
-### RNA-seq data, normalized by reads per million mapped reads (RPM)
+#### RNA-seq data, normalized by reads per million mapped reads (RPM)
 
 fully separated by each genotype group with biological replicates overlayed
 
