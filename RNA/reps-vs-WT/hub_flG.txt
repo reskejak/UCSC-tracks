@@ -1,0 +1,5 @@
+hub RNAseq_flG_vs_WT
+shortLabel RNAseq_flG_vs_WT
+longLabel flG vs. WT RNA-seq data, RPM normalized
+genomesFile https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/RNA/reps-vs-WT/genomes_flG.txt
+email reskejak@msu.edu
