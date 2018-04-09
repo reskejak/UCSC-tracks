@@ -4,7 +4,7 @@ type bigWig
 shortLabel ATACseq_EEflfl1
 longLabel ATACseq EEflfl data normalized by fragments per million reads, displayed as fold-enrichment signal to noise
 visibility full
-color 255,0,0
+color 255,70,70
 alwaysZero on
 autoScale on
 maxHeightPixels 50:50:50
