@@ -1,8 +1,8 @@
-track RNAseq_Uhet_vs_WT
+track RNAseq_het_vs_WT
 container multiWig
 type bigWig
-shortLabel RNAseq_Uhet
-longLabel RNAseq Uhet biological replicates aggregate data, RPM normalized
+shortLabel RNAseq_het_vs_WT
+longLabel het vs. WT RNA-seq data, RPM normalized
 aggregate transparentOverlay
 visibility full
 priority 1
@@ -15,7 +15,7 @@ bigDataUrl https://de.cyverse.org/dl/d/5C18F2CA-955E-4D0F-8CF2-4B21B9A42CBF/Uhet
 type bigWig
 shortLabel Uhet1
 longLabel Uhet1 RNA-seq data, RPM normalized
-parent RNAseq_Uhet_vs_WT
+parent RNAseq_het_vs_WT
 visibility full
 color 120,255,120
 alwaysZero on
@@ -28,7 +28,7 @@ bigDataUrl https://de.cyverse.org/dl/d/9E3514A5-FCDE-4690-B103-5D9019791834/Uhet
 type bigWig
 shortLabel Uhet2
 longLabel Uhet2 RNA-seq data, RPM normalized
-parent RNAseq_Uhet_vs_WT
+parent RNAseq_het_vs_WT
 visibility full
 color 120,255,120
 alwaysZero on
@@ -41,7 +41,7 @@ bigDataUrl https://de.cyverse.org/dl/d/756EB8E2-FDF3-46F5-9DD3-44B993EC0E5F/Uhet
 type bigWig
 shortLabel Uhet3
 longLabel Uhet3 RNA-seq data, RPM normalized
-parent RNAseq_Uhet_vs_WT
+parent RNAseq_het_vs_WT
 visibility full
 color 120,255,120
 alwaysZero on
@@ -54,7 +54,7 @@ bigDataUrl https://de.cyverse.org/dl/d/D9D61707-7759-4085-9118-94BDFB299C12/Uhet
 type bigWig
 shortLabel Uhet4
 longLabel Uhet4 RNA-seq data, RPM normalized
-parent RNAseq_Uhet_vs_WT
+parent RNAseq_het_vs_WT
 visibility full
 color 120,255,120
 alwaysZero on
@@ -67,7 +67,7 @@ bigDataUrl https://de.cyverse.org/dl/d/FC06CB62-8119-4C6E-B684-08E35A962A9B/Uwt1
 type bigWig
 shortLabel Uwt1
 longLabel Uwt1 RNA-seq data, RPM normalized
-parent RNAseq_Uhet_vs_WT
+parent RNAseq_het_vs_WT
 visibility full
 color 120,120,120
 alwaysZero on
@@ -80,7 +80,7 @@ bigDataUrl https://de.cyverse.org/dl/d/A9C48E0A-2B86-45B4-A332-336239385AAD/Uwt2
 type bigWig
 shortLabel Uwt2
 longLabel Uwt2 RNA-seq data, RPM normalized
-parent RNAseq_Uhet_vs_WT
+parent RNAseq_het_vs_WT
 visibility full
 color 120,120,120
 alwaysZero on
@@ -93,7 +93,7 @@ bigDataUrl https://de.cyverse.org/dl/d/31DB08F4-C2EA-4428-962F-66E603C453C0/Uwt3
 type bigWig
 shortLabel Uwt3
 longLabel Uwt3 RNA-seq data, RPM normalized
-parent RNAseq_Uhet_vs_WT
+parent RNAseq_het_vs_WT
 visibility full
 color 120,120,120
 alwaysZero on
