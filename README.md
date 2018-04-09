@@ -1,7 +1,5 @@
 # UCSC-tracks
-https://genome.ucsc.edu/
-
-mm10
+https://genome.ucsc.edu/ (mm10)
 
 * "My Data" --> "Track Hubs" --> "My Hubs"
 
