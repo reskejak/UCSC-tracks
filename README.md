@@ -1,11 +1,11 @@
 # UCSC-tracks
 https://genome.ucsc.edu/
 
-"My Data" --> "Track Hubs" --> "My Hubs"
+* "My Data" --> "Track Hubs" --> "My Hubs"
 
-paste-in the following URLs for various track data visualizations
+* paste-in the following URLs for various track data visualizations
 
-Note: each URL must be entered separately, since many of the hubs call the same data files and thus cannot be combined
+* Note: each URL must be entered separately, since many of the hubs call the same data files and thus cannot be combined
 
 ## CURRENT "MOST USEFUL" HUBS
 
