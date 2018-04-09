@@ -1,7 +1,7 @@
-track RNAseq_flGRNA_vs_WT
+track RNAseq_flG_vs_WT
 container multiWig
 type bigWig
-shortLabel RNAseq_flGRNA_vs_WT
+shortLabel RNAseq_flG_vs_WT
 longLabel flG vs. WT RNA-seq data, RPM normalized
 aggregate transparentOverlay
 visibility full
@@ -15,7 +15,7 @@ bigDataUrl https://de.cyverse.org/dl/d/798819CC-7166-463F-8B95-333FBCB6C0AB/flG1
 type bigWig
 shortLabel flG1RNA
 longLabel flG1RNA RNA-seq data, RPM normalized
-parent RNAseq_flGRNA_vs_WT
+parent RNAseq_flG_vs_WT
 visibility full
 color 255,200,0
 alwaysZero on
@@ -28,7 +28,7 @@ bigDataUrl https://de.cyverse.org/dl/d/C7FAF91F-C67D-4A3B-9CBE-682DD933CC37/flG2
 type bigWig
 shortLabel flG2RNA
 longLabel flG2RNA RNA-seq data, RPM normalized
-parent RNAseq_flGRNA_vs_WT
+parent RNAseq_flG_vs_WT
 visibility full
 color 255,200,0
 alwaysZero on
@@ -41,7 +41,7 @@ bigDataUrl https://de.cyverse.org/dl/d/BC5D0530-2AAD-469E-952A-3FF6DC0ACD84/flG3
 type bigWig
 shortLabel flG3RNA
 longLabel flG3RNA RNA-seq data, RPM normalized
-parent RNAseq_flGRNA_vs_WT
+parent RNAseq_flG_vs_WT
 visibility full
 color 255,200,0
 alwaysZero on
@@ -54,7 +54,7 @@ bigDataUrl https://de.cyverse.org/dl/d/DC0EED42-1ECD-49CB-A75F-1585E94A27CE/flG4
 type bigWig
 shortLabel flG4RNA
 longLabel flG4RNA RNA-seq data, RPM normalized
-parent RNAseq_flGRNA_vs_WT
+parent RNAseq_flG_vs_WT
 visibility full
 color 255,200,0
 alwaysZero on
@@ -67,7 +67,7 @@ bigDataUrl https://de.cyverse.org/dl/d/93E9938C-8229-4D31-9FF6-C0DCB9C44B52/Uwt1
 type bigWig
 shortLabel Uwt12018
 longLabel Uwt12018 RNA-seq data, RPM normalized
-parent RNAseq_flGRNA_vs_WT
+parent RNAseq_flG_vs_WT
 visibility full
 color 120,120,120
 alwaysZero on
@@ -80,7 +80,7 @@ bigDataUrl https://de.cyverse.org/dl/d/C1116BF7-DE86-462D-A474-32B60D64DBEB/Uwt2
 type bigWig
 shortLabel Uwt22018
 longLabel Uwt22018 RNA-seq data, RPM normalized
-parent RNAseq_flGRNA_vs_WT
+parent RNAseq_flG_vs_WT
 visibility full
 color 120,120,120
 alwaysZero on
@@ -93,7 +93,7 @@ bigDataUrl https://de.cyverse.org/dl/d/E0AF9E10-F153-4035-A736-2C27E268EFEB/Uwt3
 type bigWig
 shortLabel Uwt32018
 longLabel Uwt32018 RNA-seq data, RPM normalized
-parent RNAseq_flGRNA_vs_WT
+parent RNAseq_flG_vs_WT
 visibility full
 color 120,120,120
 alwaysZero on
