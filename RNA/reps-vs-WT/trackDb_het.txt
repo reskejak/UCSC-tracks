@@ -1,0 +1,102 @@
+track RNAseq_Uhet_vs_WT
+container multiWig
+type bigWig
+shortLabel RNAseq_Uhet
+longLabel RNAseq Uhet biological replicates aggregate data, RPM normalized
+aggregate transparentOverlay
+visibility full
+priority 1
+autoScale on
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+
+track Uhet1
+bigDataUrl https://de.cyverse.org/dl/d/5C18F2CA-955E-4D0F-8CF2-4B21B9A42CBF/Uhet1_Aligned_RPKM.mm10.bw
+type bigWig
+shortLabel Uhet1
+longLabel Uhet1 RNA-seq data, RPM normalized
+parent RNAseq_Uhet_vs_WT
+visibility full
+color 120,255,120
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uhet2
+bigDataUrl https://de.cyverse.org/dl/d/9E3514A5-FCDE-4690-B103-5D9019791834/Uhet2_Aligned_RPKM.mm10.bw
+type bigWig
+shortLabel Uhet2
+longLabel Uhet2 RNA-seq data, RPM normalized
+parent RNAseq_Uhet_vs_WT
+visibility full
+color 120,255,120
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uhet3
+bigDataUrl https://de.cyverse.org/dl/d/756EB8E2-FDF3-46F5-9DD3-44B993EC0E5F/Uhet3_Aligned_RPKM.mm10.bw
+type bigWig
+shortLabel Uhet3
+longLabel Uhet3 RNA-seq data, RPM normalized
+parent RNAseq_Uhet_vs_WT
+visibility full
+color 120,255,120
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uhet4
+bigDataUrl https://de.cyverse.org/dl/d/D9D61707-7759-4085-9118-94BDFB299C12/Uhet4_Aligned_RPKM.mm10.bw
+type bigWig
+shortLabel Uhet4
+longLabel Uhet4 RNA-seq data, RPM normalized
+parent RNAseq_Uhet_vs_WT
+visibility full
+color 120,255,120
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uwt1
+bigDataUrl https://de.cyverse.org/dl/d/FC06CB62-8119-4C6E-B684-08E35A962A9B/Uwt1_Aligned_RPKM.mm10.bw
+type bigWig
+shortLabel Uwt1
+longLabel Uwt1 RNA-seq data, RPM normalized
+parent RNAseq_Uhet_vs_WT
+visibility full
+color 180,180,180
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uwt2
+bigDataUrl https://de.cyverse.org/dl/d/A9C48E0A-2B86-45B4-A332-336239385AAD/Uwt2_Aligned_RPKM.mm10.bw
+type bigWig
+shortLabel Uwt2
+longLabel Uwt2 RNA-seq data, RPM normalized
+parent RNAseq_Uhet_vs_WT
+visibility full
+color 180,180,180
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track Uwt3
+bigDataUrl https://de.cyverse.org/dl/d/31DB08F4-C2EA-4428-962F-66E603C453C0/Uwt3_Aligned_RPKM.mm10.bw
+type bigWig
+shortLabel Uwt3
+longLabel Uwt3 RNA-seq data, RPM normalized
+parent RNAseq_Uhet_vs_WT
+visibility full
+color 180,180,180
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
