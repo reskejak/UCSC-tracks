@@ -1,8 +1,8 @@
 track RNAseq_flGRNA_vs_WT
 container multiWig
 type bigWig
-shortLabel RNAseq_flGRNA
-longLabel RNAseq flGRNA biological replicates aggregate data, RPM normalized
+shortLabel RNAseq_flGRNA_vs_WT
+longLabel flG vs. WT RNA-seq data, RPM normalized
 aggregate transparentOverlay
 visibility full
 priority 1
