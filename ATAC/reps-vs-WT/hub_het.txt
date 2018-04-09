@@ -1,0 +1,5 @@
+hub ATACseq_het_vs_WT
+shortLabel ATACseq_het_vs_WT
+longLabel Het vs. WT ATAC-seq data normalized by fragments per million reads, displayed as log-likelihood ratio signal to noise
+genomesFile https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/reps-vs-WT/genomes_het.txt
+email reskejak@msu.edu
