@@ -1,8 +1,8 @@
-track RNAseq_Uhomo_vs_WT
+track RNAseq_flfl_vs_WT
 container multiWig
 type bigWig
-shortLabel RNAseq_Uhomo
-longLabel RNAseq Uhomo biological replicates aggregate data, RPM normalized
+shortLabel RNAseq_flfl_vs_WT
+longLabel flfl vs. WT RNA-seq data, RPM normalized
 aggregate transparentOverlay
 visibility full
 priority 1
@@ -15,7 +15,7 @@ bigDataUrl https://de.cyverse.org/dl/d/EB21AFC4-D297-48DB-8198-614C3A1A50DB/Uhom
 type bigWig
 shortLabel Uhomo1
 longLabel Uhomo1 RNA-seq data, RPM normalized
-parent RNAseq_Uhomo_vs_WT
+parent RNAseq_flfl_vs_WT
 visibility full
 color 255,70,70
 alwaysZero on
@@ -28,7 +28,7 @@ bigDataUrl https://de.cyverse.org/dl/d/117EE8D3-E050-4FE0-BD4A-F8F0DF738DA1/Uhom
 type bigWig
 shortLabel Uhomo2
 longLabel Uhomo2 RNA-seq data, RPM normalized
-parent RNAseq_Uhomo_vs_WT
+parent RNAseq_flfl_vs_WT
 visibility full
 color 255,70,70
 alwaysZero on
@@ -41,7 +41,7 @@ bigDataUrl https://de.cyverse.org/dl/d/D6B9592D-BB3E-4715-87EE-BADFB6A4D202/Uhom
 type bigWig
 shortLabel Uhomo3
 longLabel Uhomo3 RNA-seq data, RPM normalized
-parent RNAseq_Uhomo_vs_WT
+parent RNAseq_flfl_vs_WT
 visibility full
 color 255,70,70
 alwaysZero on
@@ -54,7 +54,7 @@ bigDataUrl https://de.cyverse.org/dl/d/3604EA86-88F6-4FE0-A5EB-085F92803F8D/Uhom
 type bigWig
 shortLabel Uhomo4
 longLabel Uhomo4 RNA-seq data, RPM normalized
-parent RNAseq_Uhomo_vs_WT
+parent RNAseq_flfl_vs_WT
 visibility full
 color 255,70,70
 alwaysZero on
@@ -67,7 +67,7 @@ bigDataUrl https://de.cyverse.org/dl/d/FC06CB62-8119-4C6E-B684-08E35A962A9B/Uwt1
 type bigWig
 shortLabel Uwt1
 longLabel Uwt1 RNA-seq data, RPM normalized
-parent RNAseq_Uhomo_vs_WT
+parent RNAseq_flfl_vs_WT
 visibility full
 color 120,120,120
 alwaysZero on
@@ -80,7 +80,7 @@ bigDataUrl https://de.cyverse.org/dl/d/A9C48E0A-2B86-45B4-A332-336239385AAD/Uwt2
 type bigWig
 shortLabel Uwt2
 longLabel Uwt2 RNA-seq data, RPM normalized
-parent RNAseq_Uhomo_vs_WT
+parent RNAseq_flfl_vs_WT
 visibility full
 color 120,120,120
 alwaysZero on
@@ -93,7 +93,7 @@ bigDataUrl https://de.cyverse.org/dl/d/31DB08F4-C2EA-4428-962F-66E603C453C0/Uwt3
 type bigWig
 shortLabel Uwt3
 longLabel Uwt3 RNA-seq data, RPM normalized
-parent RNAseq_Uhomo_vs_WT
+parent RNAseq_flfl_vs_WT
 visibility full
 color 120,120,120
 alwaysZero on
