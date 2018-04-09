@@ -17,7 +17,7 @@ shortLabel EEflfl1
 longLabel EEflfl1 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
 parent ATACseq_full
 visibility full
-color 255,0,0
+color 255,70,70
 alwaysZero on
 maxHeightPixels 50:50:50
 windowingFunction mean
