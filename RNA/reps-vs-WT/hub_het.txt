@@ -1,0 +1,5 @@
+hub RNAseq_het_vs_WT
+shortLabel RNAseq_het_vs_WT
+longLabel Het vs. WT RNA-seq data, RPM normalized
+genomesFile https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/RNA/reps-vs-WT/genomes_het.txt
+email reskejak@msu.edu
