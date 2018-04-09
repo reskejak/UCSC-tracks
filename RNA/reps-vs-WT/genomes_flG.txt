@@ -1,0 +1,2 @@
+genome mm10
+trackDb https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/RNA/reps-vs-WT/trackDb_flG.txt
