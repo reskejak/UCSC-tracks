@@ -14,7 +14,7 @@ https://genome.ucsc.edu/ (mm10)
 separated by each genotype group compared to WT:
 
 https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/reps-vs-WT/hub_flG.txt
-https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/reps-vs-WT/hub_homo.txt
+https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/reps-vs-WT/hub_flfl.txt
 https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/reps-vs-WT/hub_het.txt
 
 aggregate multiWig track of all samples:
