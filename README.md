@@ -9,6 +9,10 @@ https://genome.ucsc.edu/ (mm10)
 
 ## CURRENT "MOST USEFUL" HUBS
 
+#### Newest flow cell ATAC-seq data, normalized by fragments per million reads, displayed as log-likelihood ratio signal to noise
+
+https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/reps-vs-WT/hub_flfl_new.txt
+
 #### ATAC-seq data, normalized by fragments per million reads, displayed as log-likelihood ratio signal to noise
 
 separated by each genotype group compared to WT:
