@@ -1,0 +1,105 @@
+track ATACseq_flfl_vs_WT
+container multiWig
+type bigWig
+shortLabel ATACseq_flfl_vs_WT
+longLabel flfl vs. WT ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+aggregate transparentOverlay
+visibility full
+priority 1
+autoScale on
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+
+track ATACseq_EEflfl1_new
+bigDataUrl https://de.cyverse.org/dl/d/2C18B8C8-B869-4D04-822E-6700A3F0766A/EEflfl1-new_broad_norm_logLR.bw
+type bigWig
+shortLabel ATACseq_EEflfl1_new
+longLabel EEflfl1-new ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+parent ATACseq_flfl_vs_WT
+visibility full
+color 255,70,70
+alwaysZero on
+autoScale on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track ATACseq_EEflfl1
+bigDataUrl https://de.cyverse.org/dl/d/2EBD55F7-D77E-4A5B-94A8-0B4047B324BE/EEflfl1_broad_norm_logLR.bw
+type bigWig
+shortLabel ATACseq_EEflfl1
+longLabel EEflfl1 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+parent ATACseq_flfl_vs_WT
+visibility full
+color 255,70,70
+alwaysZero on
+autoScale on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track ATACseq_EEflfl2a
+bigDataUrl https://de.cyverse.org/dl/d/01B966F0-866A-44B2-A41D-E008CBFC631A/EEflfl2a_broad_norm_logLR.bw
+type bigWig
+shortLabel ATACseq_EEflfl2a
+longLabel EEflfl2a ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+parent ATACseq_flfl_vs_WT
+visibility full
+color 255,70,70
+alwaysZero on
+autoScale on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track EEwt1_new
+bigDataUrl https://de.cyverse.org/dl/d/FD18C156-BFEF-4682-97FA-CB50A22F0A5F/EEwt1-new_broad_norm_logLR.bw
+type bigWig
+shortLabel EEwt1_new
+longLabel EEwt1_new ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+parent ATACseq_flfl_vs_WT
+visibility full
+color 120,120,120
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track EEwt1
+bigDataUrl https://de.cyverse.org/dl/d/703B794A-4033-4C09-BB1E-53804147A3DF/EEwt1_broad_norm_logLR.bw
+type bigWig
+shortLabel EEwt1
+longLabel EEwt1 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+parent ATACseq_flfl_vs_WT
+visibility full
+color 120,120,120
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track EEwt2_new
+bigDataUrl https://de.cyverse.org/dl/d/02973953-014B-4EF9-86B1-D8151D6EA415/EEwt2-new_broad_norm_logLR.bw
+type bigWig
+shortLabel EEwt2_new
+longLabel EEwt2_new ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+parent ATACseq_flfl_vs_WT
+visibility full
+color 120,120,120
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
+
+track EEwt2
+bigDataUrl https://de.cyverse.org/dl/d/B79E36DD-703D-486D-A1F5-E5E6CE0EAB63/EEwt2_broad_norm_logLR.bw
+type bigWig
+shortLabel EEwt2
+longLabel EEwt2 ATAC-seq data normalized by fragments per million reads, displayed as log likelihood ratio signal to noise
+parent ATACseq_flfl_vs_WT
+visibility full
+color 120,120,120
+alwaysZero on
+maxHeightPixels 50:50:50
+windowingFunction mean
+smoothingWindow 3
