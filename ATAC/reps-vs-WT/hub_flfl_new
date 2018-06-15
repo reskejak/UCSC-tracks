@@ -1,0 +1,5 @@
+hub ATACseq_flfl_vs_WT_new
+shortLabel ATACseq_flfl_vs_WT_new
+longLabel flfl vs. WT new ATAC-seq data normalized by fragments per million reads, displayed as log-likelihood ratio signal to noise
+genomesFile https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ATAC/reps-vs-WT/genomes_flfl_new.txt
+email reskejak@msu.edu
