@@ -11,7 +11,7 @@ showSubtrackColorOnUi on
 maxHeightPixels 500:100:8
 
 track IP1_ChIP
-bigDataUrl https://de.cyverse.org/dl/d/foo/IP1_broad_norm_logLR.bw
+bigDataUrl https://de.cyverse.org/dl/d/2845DEBB-39E2-4164-8F54-BC7A46293BDA/IP1_broad_norm_logLR.bw
 type bigWig
 shortLabel IP1
 longLabel Wilson & Reske IP1 ChIPseq normalized by FPM, displayed as log likelihood ratio signal to noise
@@ -24,7 +24,7 @@ windowingFunction mean
 smoothingWindow 3
 
 track IP2_ChIP
-bigDataUrl https://de.cyverse.org/dl/d/foo/IP2_broad_norm_logLR.bw
+bigDataUrl https://de.cyverse.org/dl/d/100116C5-6C10-47BB-B824-59A76C80EEA7/IP2_broad_norm_logLR.bw
 type bigWig
 shortLabel IP2
 longLabel Wilson & Reske IP2 ChIPseq normalized by FPM, displayed as log likelihood ratio signal to noise
@@ -37,13 +37,13 @@ windowingFunction mean
 smoothingWindow 3
 
 track ChIP_peaks
-bigDataUrl https://de.cyverse.org/dl/d/foo/ChIP_peaks.bw
+bigDataUrl https://de.cyverse.org/dl/d/C483A72A-E037-4FB9-88DB-F2DB353344AE/ChIP_overlap_broad_peaks.sorted.filt.bigBed
 type bigBed
 shortLabel ChIP_peaks
 longLabel Wilson & Reske naive overlapping ChIP broad peaks (N = 46,180)
 visibility full
 color 50,150,50
-viewLimits 0:1
+viewLimits 0:200
 maxHeightPixels 50:50:50
 windowingFunction mean
 smoothingWindow 3
