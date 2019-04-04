@@ -1,0 +1,5 @@
+hub ChIPseq
+shortLabel ChIPseq
+longLabel Wilson & Reske ChIPseq aggregate track, normalized by FPM, displayed as fold-enrichment signal to noise
+genomesFile https://raw.githubusercontent.com/reskejak/UCSC-tracks/master/ChIP/genomes.txt
+email reskejak@msu.edu
