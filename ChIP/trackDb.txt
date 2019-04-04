@@ -41,7 +41,7 @@ bigDataUrl https://de.cyverse.org/dl/d/C483A72A-E037-4FB9-88DB-F2DB353344AE/ChIP
 type bigBed
 shortLabel ChIP_peaks
 longLabel Wilson & Reske naive overlapping ChIP broad peaks (N = 46,180)
-visibility pack
+visibility squish
 color 50,150,50
 viewLimits 0:200
 maxHeightPixels 50:50:50
