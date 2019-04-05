@@ -19,6 +19,7 @@ parent ChIPseq
 visibility full
 color 50,150,50
 viewLimits 0:0.3
+viewLimitsMax 0:0.3
 maxHeightPixels 50:50:50
 windowingFunction mean
 smoothingWindow 3
@@ -32,6 +33,7 @@ parent ChIPseq
 visibility full
 color 50,150,50
 viewLimits 0:0.3
+viewLimitsMax 0:0.3
 maxHeightPixels 50:50:50
 windowingFunction mean
 smoothingWindow 3
